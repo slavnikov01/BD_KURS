@@ -1,0 +1,37 @@
+﻿<Window x:Class="spectr.WinNewZakaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:spectr"
+        mc:Ignorable="d"
+        Title="WinNewZakaz" Height="450" Width="744.8">
+    <Grid Background="#FF424242" Margin="0,0,-6.6,0">
+        <TextBlock Name ="denpriema"  HorizontalAlignment="Left" Margin="33,50,0,0" TextWrapping="Wrap" Text="День приема" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB1" HorizontalAlignment="Left" Height="23" Margin="33,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="mesyacpriema" HorizontalAlignment="Left" Margin="128,50,0,0" TextWrapping="Wrap" Text="Месяц приема" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB2" HorizontalAlignment="Left" Height="23" Margin="128,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="godpriema" HorizontalAlignment="Left" Margin="227,50,0,0" TextWrapping="Wrap" Text="Год прикма" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB3" HorizontalAlignment="Left" Height="23" Margin="227,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="denvidachi" HorizontalAlignment="Left" Margin="329,50,0,0" TextWrapping="Wrap" Text="День выдачи" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB4" HorizontalAlignment="Left" Height="23" Margin="329,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="mesiacvidachi" HorizontalAlignment="Left" Margin="432,50,0,0" TextWrapping="Wrap" Text="Месяц выдачи" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB5" HorizontalAlignment="Left" Height="23" Margin="432,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="godvidachi" HorizontalAlignment="Left" Margin="538,50,0,0" TextWrapping="Wrap" Text="Год выдачи" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB6" HorizontalAlignment="Left" Height="23" Margin="538,71,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="klientid" HorizontalAlignment="Left" Margin="80,114,0,0" TextWrapping="Wrap" Text="Id клиента" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB7" HorizontalAlignment="Left" Height="23" Margin="80,135,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="masterid" HorizontalAlignment="Left" Margin="195,114,0,0" TextWrapping="Wrap" Text="Id мастера" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB8" HorizontalAlignment="Left" Height="23" Margin="195,135,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="stoimost" HorizontalAlignment="Left" Margin="297,114,0,0" TextWrapping="Wrap" Text="Стоимость" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB9" HorizontalAlignment="Left" Height="23" Margin="297,135,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="srokgarantii" HorizontalAlignment="Left" Margin="400,114,0,0" TextWrapping="Wrap" Text="Срок гарантии" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB10" HorizontalAlignment="Left" Height="23" Margin="400,135,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <TextBlock Name="garantiniyremont" HorizontalAlignment="Left" Margin="506,114,0,0" TextWrapping="Wrap" Text="Гарантийный ремонт" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox Name="TB11" HorizontalAlignment="Left" Height="23" Margin="506,135,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="81"/>
+        <Button  Name ="newzakaz" Content="Добавить" HorizontalAlignment="Left" Margin="297,251,0,0" VerticalAlignment="Top" Width="104" Click="newzakaz_Click" Background="#FFFF4900" Foreground="White" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Height="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="293,176,0,0" TextWrapping="Wrap" Text="Id аппаратуры" VerticalAlignment="Top" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="TB12" HorizontalAlignment="Left" Height="23" Margin="281,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="spectr.WinNewCity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:spectr"
+        mc:Ignorable="d"
+        Title="WinNewCity" Height="450" Width="800">
+    <Grid Background="#FF424242">
+        <TextBox Name="TB1"  HorizontalAlignment="Left" Height="23" Margin="30,57,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name="TB2" HorizontalAlignment="Left" Height="23" Margin="212,57,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox Name="TB3" HorizontalAlignment="Left" Height="23" Margin="394,57,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="134"/>
+        <TextBox Name="TB4" HorizontalAlignment="Left" Height="23" Margin="595,57,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="134"/>
+        <TextBlock Name="vozrastapparaturi" Text="Возраст аппаратуры"  HorizontalAlignment="Left" Margin="30,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Tahoma" FontSize="14"/>
+        <TextBlock Name="tipapparaturi" Text="Тип аппаратуры" HorizontalAlignment="Left" Margin="212,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Tahoma" FontSize="14"/>
+        <TextBlock Name="stranaproizvoditel" Text="Страна-производитель" HorizontalAlignment="Left" Margin="394,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Tahoma" FontSize="14"/>
+        <TextBlock Name="firmaizgotovitel" Text="Фирма-изготовитель" HorizontalAlignment="Left" Margin="595,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Tahoma" FontSize="14"/>
+        <Button Name="mewapparatura" Content="Добавить" HorizontalAlignment="Left" Margin="319,127,0,0" VerticalAlignment="Top" Width="102" Height="37" Click="mewapparatura_Click" Background="#FFFF4900" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="White"/>
+
+    </Grid>
+</Window>

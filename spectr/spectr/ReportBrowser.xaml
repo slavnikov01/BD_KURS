@@ -1,0 +1,19 @@
+﻿<Window x:Class="spectr.ReportBrowser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:spectr"
+        mc:Ignorable="d"
+        Title="ReportBrowser" Height="701.659" Width="985.545">
+    <Grid Background="#FF262626" Margin="0,0,3.2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="305*"/>
+            <ColumnDefinition Width="132*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+        <DocumentViewer Name="DocumentViever" HorizontalAlignment="Left" Margin="67,52,0,0" VerticalAlignment="Top" Height="492" Width="804" Grid.ColumnSpan="2"/>
+        <Button Content="Открыть документ" HorizontalAlignment="Left" Margin="395,18,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Background="#FFFF4900"/>
+
+    </Grid>
+</Window>
